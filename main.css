@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    flex: 100%;
+}
+.shop {
+    width: 25%;
+    margin: 0 10px;
+    border: 1px dashed black;
+}
